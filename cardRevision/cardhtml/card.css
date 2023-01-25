@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    /*margin: 0;*/
+
+}
+.cointainer{
+    height: auto;
+    width: 16rem;
+    background-color: blue;
+    background-image: linear-gradient(indigo, red);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 3px 5px grey;
+
+}
+.logo{
+    text-align: center;
+}
+.image1{
+height: auto;
+width: 8rem;
+border-radius: 50%;
+border: 0.5rem solid red;
+}
+
+.card-text{
+    text-align: center;
+}
+p{
+    color: white;
+}
+.card-tittle{
+    text-align: center;
+    color: white;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+
+    box-sizing: border-box;{
+}
+.column{
+    float: left;
+    height: 30%;
+    width: 30%;
+    padding: 6%;
+    
+}
+.row::after{
+   content: "";
+    clear: both;
+    display: table;
+    
+}
+
+.facebook{
+    /*background-color: white;*/
+    border-radius: 50%;
+    border: 0.5rem solid white;
+}
+.facebook:hover{
+    background-color: blue;
+
+}
+.twitter{
+    background-color: white;
+    border-radius: 50%;
+    border: 0.5rem solid white;
+}
+.twitter:hover{
+   background-color: blue;
+
+}
+.instagram{
+    background-color: white;
+    border-radius: 50%;
+    border: 0.5rem solid white;
+}
+.instagram:hover{
+    background-color: red;
+
+}
+
+.icon{
+    text-align: center;
+}
+.tiktok{
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    border-radius: 50%;
+    border: 0.5rem solid white;
+}
+.tiktok:hover{
+    background-color: black;
+}
+
+.btn{
+    text-align: center;
+}
+button{
+    background-color: burlywood;
+    border: 0.3rem solid aqua;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
